@@ -1,6 +1,6 @@
 angular.module( 'StarShip' ).service( 'starshipService', function( $http, $q ){
 
-  var baseUrl = 'https://swapi.co/api/';
+  var baseUrl = 'http://swapi.co/api/';
   var nextPageUrl = null;
 
 
